@@ -61,7 +61,6 @@ describe "Static pages" do
       expect(page).to have_title("#{base_title} | Contact")
     end
   end
-
-  end
-
 end
+
+
