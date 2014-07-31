@@ -1,0 +1,9 @@
+person1 = {:first => "Fred", :last =>"McMurray"}
+
+person2 = {:first => "Sally", :last => "Ride"}
+
+person3 = {:first => "Baby", :last => "McRide"}
+
+params = {:father => person1, :mother => person2, :child => person3}
+
+
