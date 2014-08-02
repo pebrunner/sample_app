@@ -1,0 +1,47 @@
+F.........
+
+Failures:
+
+  1) Static pages should have the right links on the layout
+     Failure/Error: expect(page).to  have_title(full_title('About Us'))
+       expected #has_title?("Ruby on Rails Tutorial Sample App | About Us") to return true, got false
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-2.13.0/lib/rspec/expectations/fail_with.rb:32:in `fail_with'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-2.13.0/lib/rspec/expectations/handler.rb:33:in `handle_matcher'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-expectations-2.13.0/lib/rspec/expectations/expectation_target.rb:34:in `to'
+     # C:/Ruby200/lib/ruby/2.0.0/rails_projects/sample_app/spec/requests/static_pages_spec.rb:52:in `block (2 levels) in <top (required)>'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:114:in `instance_eval'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:114:in `block in run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:179:in `call'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:179:in `run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-rails-2.13.1/lib/rspec/rails/adapters.rb:50:in `block (2 levels) in <module:MiniTestLifecycleAdapter>'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/extensions/instance_eval_with_args.rb:16:in `instance_exec'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/extensions/instance_eval_with_args.rb:16:in `instance_eval_with_args'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:247:in `instance_eval_with_args'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/hooks.rb:87:in `block (2 levels) in run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/hooks.rb:89:in `call'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/hooks.rb:89:in `run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/hooks.rb:418:in `run_hook'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example_group.rb:329:in `run_around_each_hooks'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:256:in `with_around_each_hooks'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example.rb:111:in `run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example_group.rb:390:in `block in run_examples'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example_group.rb:386:in `map'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example_group.rb:386:in `run_examples'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/example_group.rb:371:in `run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb:28:in `block (2 levels) in run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb:28:in `map'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb:28:in `block in run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/reporter.rb:34:in `report'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/command_line.rb:25:in `run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb:80:in `run'
+     # C:/Ruby200/lib/ruby/gems/2.0.0/gems/rspec-core-2.13.1/lib/rspec/core/runner.rb:17:in `block in autorun'
+
+Finished in 0.53125 seconds
+10 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/requests/static_pages_spec.rb:49 # Static pages should have the right links on the layout
+
+Randomized with seed 26362
+
